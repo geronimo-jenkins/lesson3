@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Kavivanar');
+h1,
+.chosen {
+    color: red;
+}
+div > p {
+    color: green;
+}
+div ~ p {
+    color: yellow;
+}
+p:hover {
+    color: #4644e2;
+}
+p::after {
+    color: violet;
+}
+p:hover {
+    color: #4644e2;
+}
+
+p::before {
+    content: '<';
+}
+p::after {
+    content: '>';
+}
+
+p[data-select] {
+    color: #af3418;
+}
+p {
+    font-family: 'Kavivanar', cursive;
+}
